@@ -1,0 +1,52 @@
+
+      * {
+        font-family: Arial, Helvetica, sans-serif;
+         font-size: 13px;
+         margin: 2px;
+      }
+
+      input {
+        width: 200px;
+      }
+      input[type="radio"]  {
+        width: 20px;
+        margin-left: 0px;
+      }
+      input[type="checkbox"]  {
+        width: 20px;
+        float: right;
+
+      }
+      textarea {
+        width: 200px;
+        height: 50px;
+      }
+
+      button {
+        border-radius: 5px;
+        padding: 10px;
+        border: 0px;
+        color: #fff;
+      }
+      button:hover {
+        cursor:pointer;
+      }
+
+    #submitForm {
+        background-color: #FF5E33;
+    }
+    #submitForm:hover {
+        background-color: #F0B27A;
+    }
+    #resetForm {
+        background-color: #BDC3C7;
+    }
+    #resetForm:hover {
+        background-color: #CACFD2;
+    }
+    #validateField {
+        background-color: #e69900;
+    }
+    #validateField:hover {
+           background-color: #F0B27A;
+   }
