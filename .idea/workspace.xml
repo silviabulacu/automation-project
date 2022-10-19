@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca59f537-36dc-4ae4-9c81-aa59ae5cd605" name="Changes" comment="-Course03 -Java Intro">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Homework/com/siit/homework/homework01.java" afterDir="false" />
+    <list default="true" id="ca59f537-36dc-4ae4-9c81-aa59ae5cd605" name="Changes" comment="Homework - Leap Years">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/Course03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siit/course/Course03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Homework/com/siit/homework/homework01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Homework/com/siit/homework/homework01.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +22,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -66,9 +69,9 @@
       </method>
     </configuration>
     <configuration name="HomeworkApp" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="com.siit.homework.homework01" />
+      <option name="MAIN_CLASS_NAME" value="com.siit.homework.homework01b" />
       <module name="automation-project" />
-      <option name="PROGRAM_PARAMETERS" value="1900" />
+      <option name="PROGRAM_PARAMETERS" value="15.5 / 10.5" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -108,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666002285201</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Homework - Leap Years">
+      <created>1666194667586</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1666194667587</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -125,6 +135,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="- Created setup page &#10;- Created registration form page" />
     <MESSAGE value="-Course03 -Java Intro" />
-    <option name="LAST_COMMIT_MESSAGE" value="-Course03 -Java Intro" />
+    <MESSAGE value="Homework - Leap Years" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework - Leap Years" />
   </component>
 </project>
