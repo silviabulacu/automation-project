@@ -1,7 +1,7 @@
 package com.siit.homework;
 
 
-
+//Leap Year
 public class homework01 {
 
     // Display the number of days in month February from a year between 1900-2016 that is read from keyboard
@@ -39,9 +39,3 @@ public static void main(String[] args) {
         }
     }
 }
-
-
-
-    //Implement an arithmetic calculator that takes 3 arguments: the first number, the operation, the second number.
-
-
