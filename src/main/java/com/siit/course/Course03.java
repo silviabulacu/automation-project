@@ -108,7 +108,7 @@ public class Course03 {
                 System.out.println(c);
             }
         }
-        // Calculate the sum of the first 100 numbers highter than 0
+        // Calculate the sum of the first 100 numbers higher than 0
         int sum = 0;
         for (int i = 1; i < 101; i++) {
            sum = sum +i; // sum +=1
