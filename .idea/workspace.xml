@@ -62,7 +62,7 @@
       <recent name="C:\Users\sbulacu\IdeaProjects\automation-project\src\main" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.CourseApp">
     <configuration name="CourseApp" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.siit.course.Course03" />
       <module name="automation-project" />
