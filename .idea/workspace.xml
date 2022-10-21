@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca59f537-36dc-4ae4-9c81-aa59ae5cd605" name="Changes" comment="- Created setup page &#10;- Created registration form page">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/siit/course/Course03.java" afterDir="false" />
+    <list default="true" id="ca59f537-36dc-4ae4-9c81-aa59ae5cd605" name="Changes" comment="Homework01b - Arithmetic calculator">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/siit/course/Course04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/siit/course/CourseMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/siit/course/utils/MathFunctions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/Course03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siit/course/Course03.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +25,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Homework-1" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -42,12 +49,19 @@
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.Mappings&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sbulacu\IdeaProjects\automation-project\src\main\java" />
+      <recent name="C:\Users\sbulacu\IdeaProjects\automation-project\src\main" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="CourseApp" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.siit.course.Course03" />
@@ -57,6 +71,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HomeworkApp" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.siit.homework.homework01b" />
+      <module name="automation-project" />
+      <option name="PROGRAM_PARAMETERS" value="15.5 / 10.5" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.CourseApp" />
+      <item itemvalue="Application.HomeworkApp" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -81,7 +107,35 @@
       <option name="project" value="LOCAL" />
       <updated>1665089326968</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="-Course03 -Java Intro">
+      <created>1666002285201</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1666002285201</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Homework - Leap Years">
+      <created>1666194667586</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1666194667587</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Homework01b - Arithmetic calculator">
+      <created>1666199057987</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1666199057987</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Homework01b - Arithmetic calculator">
+      <created>1666199263815</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1666199263815</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -97,6 +151,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="- Created setup page &#10;- Created registration form page" />
-    <option name="LAST_COMMIT_MESSAGE" value="- Created setup page &#10;- Created registration form page" />
+    <MESSAGE value="-Course03 -Java Intro" />
+    <MESSAGE value="Homework - Leap Years" />
+    <MESSAGE value="Homework01b - Arithmetic calculator" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework01b - Arithmetic calculator" />
   </component>
 </project>

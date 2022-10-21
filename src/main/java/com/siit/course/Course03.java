@@ -4,7 +4,7 @@ public class Course03 {
 
     static int x = 0;
 
-    public static void main(String[] args) {
+    public static void course03(String[] args) {
         final double PI = 3.14;
         final int MAX_SIZE = 100; // naming convention all uppercase split by _
         int y = 1; // primitive
@@ -62,7 +62,7 @@ public class Course03 {
 
 
         }
-    // while example
+        // while example
         int index = 0;
         while (myBool) {
             System.out.println(" WHILE Infinite loop!" + index);
@@ -111,7 +111,7 @@ public class Course03 {
         // Calculate the sum of the first 100 numbers highter than 0
         int sum = 0;
         for (int i = 1; i < 101; i++) {
-           sum = sum +i; // sum +=1
+            sum = sum +i; // sum +=1
         }
         System.out.println("Suma este " +sum );
 
@@ -138,10 +138,12 @@ public class Course03 {
 //            else {
 //                System.out.println("Number " +i + "is even");
 //            }
-       }
+        }
         System.out.println("Total number of primes are " + countPrime);
 
     }
+
+
 
 
 }
