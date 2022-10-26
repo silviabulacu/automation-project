@@ -50,4 +50,9 @@ public class MathFunctions {
         return n % 2 == 1;
 // return ( n % 2 ==1) ? true : false;  --> if construction in one line!!
     }
+
+    // Square compute Volume
+    public static double computeVolume(int vertex) {
+        return Math.pow(vertex, 3);
+    }
 }

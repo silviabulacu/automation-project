@@ -1,6 +1,11 @@
 package com.siit.course;
 
 
+import com.siit.course.utils.MathFunctions;
+
+import java.awt.*;
+import java.util.Date;
+
 import static com.siit.course.utils.MathFunctions.*;
 
 public class Course04 {
@@ -60,12 +65,6 @@ public class Course04 {
         drawFullShape(i,i); //a square is a rectangle with the same
     }
 
-
-
-    }
-
-
-
     public static void runCourseCode4() {
         int n = 123456;
         System.out.println(" Number " + n + " is " + isPrimeNumber(n));
@@ -76,6 +75,59 @@ public class Course04 {
         drawShapeOutline(7,13);
         drawShapeCorners(7,13);
         drawFullShape(5); //square
+        int v = 5;
+        System.out.println("The volume for a cube with vertex = " + v + " is " + MathFunctions.computeVolume(5));
+        Person p1 =new Person();
+        Person p2= new Person();
+        p1.name ="Alex";
+        p2.name ="Silvia";
+        Shape  s1 =new Shape();
+        s1.colorShape("blue");
+        System.out.println("The shape has color " + s1.color);
+        Rectangle r1 = new Rectangle(10,6);
+        r1.printRectangle();
+        Rectangle r2 = new Rectangle(3,4);
+        r2.printRectangle();
+        Cicle c1 = new Cicle(5);
+        Cicle c2 = new Cicle(7);
+        Cicle c3 = new Cicle();
+        c1.printCicle();
+        c2.printCicle();
+        c3.printCicle();
+
+        Person p3 = new Person(
+                34,
+                'M',
+                "Alex",
+                180,
+                70,
+                true,
+                new Date( 1980, 2,28)
+        );
+
+
+        p3.eat();
+        p3.eat();
+
+        CarBrands dacia = new CarBrands(
+                "DACIA",
+                new Date(1990, 05, 20),
+                "RENAULT",
+                "Ptesti",
+                p3
+        );
+        Car car1 = new Car(
+                dacia,
+                " DUSTER ",
+                Color.red,
+                "benzina",
+                true,
+                "123456789"
+        );
+        car1.accelerate();
+        car1.paintCar(Color.BLUE);
+        System.out.println(" Car " + car1.model + " with brand " + car1.brand.name);
+
     }
 
 

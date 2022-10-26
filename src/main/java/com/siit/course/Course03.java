@@ -1,5 +1,7 @@
 package com.siit.course;
 
+import static com.siit.course.Course04.runCourseCode4;
+
 public class Course03 {
 
     static int x = 0;
@@ -143,7 +145,10 @@ public class Course03 {
 
     }
 
-
+    public static void main(String[] args) {
+        //course03(args);
+        runCourseCode4();
+    }
 
 
 }
