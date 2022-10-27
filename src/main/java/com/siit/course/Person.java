@@ -4,13 +4,23 @@ import java.util.Date;
 
 public class Person {
 
-    int age;
-    char sex;
-    String name;
-    int height;
-    int weight;
-    boolean isHungry;
-    Date birthday;
+    private int age;
+    private char sex;
+   private String name;
+    private int height;
+   private int weight;
+    private boolean isHungry;
+    private Date birthday;
+
+
+    public Person(int age, char sex, String name, int height, int weight, boolean isHungry) {
+        this.age = age;
+        this.sex = sex;
+        this.name = name;
+        this.height = height;
+        this.weight = weight;
+        this.isHungry = isHungry;
+    }
 
     public Person(int age, char sex, String name, int height, int weight, boolean isHungry, Date birthday) {
         this.age = age;
@@ -43,8 +53,62 @@ public class Person {
         }
     }
 
-    public void happyBirthday(){
-        age++;
+    public void happyBirthday(){ age++;}
+        //Setter
+    public void setBirthday(Date birthday){
+        this.birthday = birthday;
+    }
+        //Getter
+    public Date getBirthday(){
+        return this.birthday;
 
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public char getSex() {
+        return sex;
+    }
+
+    public void setSex(char sex) {
+        this.sex = sex;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getHeight() {
+        return height;
+    }
+
+    public void setHeight(int height) {
+        this.height = height;
+    }
+
+    public int getWeight() {
+        return weight;
+    }
+
+    public void setWeight(int weight) {
+        this.weight = weight;
+    }
+
+    public boolean isHungry() {
+        return isHungry;
+    }
+
+    public void setHungry(boolean hungry) {
+        isHungry = hungry;
     }
 }

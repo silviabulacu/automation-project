@@ -1,9 +1,13 @@
 package com.siit.course;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter @Setter
 public class Rectangle {
 
-    int width;
-    int height;
+    private int width;
+    private int height;
 
     public Rectangle( int height, int width){
         this.height = height;
