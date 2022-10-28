@@ -1,6 +1,12 @@
 package com.siit.course;
 
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
 import java.util.Date;
+@AllArgsConstructor
 
 public class Person {
 
@@ -11,6 +17,8 @@ public class Person {
    private int weight;
     private boolean isHungry;
     private Date birthday;
+
+    private Shape favoriteShape;
 
 
     public Person(int age, char sex, String name, int height, int weight, boolean isHungry) {

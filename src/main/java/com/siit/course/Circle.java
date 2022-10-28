@@ -1,13 +1,18 @@
 package com.siit.course;
 
-public class Cicle {
-    int radius;
+import lombok.Getter;
+import lombok.Setter;
 
-    public Cicle (int radius) {
+@Getter@Setter
+
+public class Circle extends Shape {
+    private int radius;
+
+    public Circle(int radius) {
         this.radius = radius;
     }
 
-    public Cicle() {
+    public Circle() {
 
 
     }
@@ -22,5 +27,8 @@ public class Cicle {
     public void printCicle() {
         System.out.println(" Cicle with radius "  + radius  +  " has area "  +  getArea() + " and length " + getLenght());
     }
-
+@Override
+    public void draw(){
+        super.draw("CIRCLE");
+}
 }

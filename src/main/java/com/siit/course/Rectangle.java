@@ -1,10 +1,12 @@
 package com.siit.course;
 
+import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 @Getter @Setter
-public class Rectangle {
+public class Rectangle extends Shape {
 
     private int width;
     private int height;
@@ -33,5 +35,16 @@ public class Rectangle {
         System.out.println("Diagonal is " +  computeDiagonal());
 
     }
+
+    public Rectangle (String color, int width, int height) {
+        super(color);
+        this.width = width;
+        this.height = height;
+    }
+
+  @Override
+    public void draw(){
+        super.draw("RECTANGLE");
+  }
 
 }
