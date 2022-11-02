@@ -1,4 +1,4 @@
-package com.siit.homework;
+package com.siit.homework2;
 
 public class HomeworkMain {
     public static void main(String[] args){
